@@ -56,7 +56,7 @@ const Projects = () => {
                         <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4'>
                             <img src={project.image} alt={project.title} className='w-full h-auto mb-14' />
                             <div className='absolute bottom-5 left-0 right-0 flex justify-center'>
-                                <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
+                                <div className='inline-block bg-white w-3/4 px-3 py-2 shadow-md'>
                                     <h2 className='text-xl font-semibold text-gray-800'>
                                         {project.title}
                                     </h2>

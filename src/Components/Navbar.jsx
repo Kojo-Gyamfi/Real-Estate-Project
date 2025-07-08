@@ -28,7 +28,7 @@ const Navbar = () => {
                     >About</a>
                     <a href="#Projects" className='cursor-pointer hover:text-gray-400'
                     >Projects</a>
-                    <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'
+                    <a href="#Testimonial" className='cursor-pointer hover:text-gray-400'
                     >Testimonials</a>
                 </ul>
                 <button className='hidden md:block bg-white px-8 py-2
@@ -49,7 +49,7 @@ const Navbar = () => {
                     >About</a>
                     <a onClick={() => setShowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'
                     >Projects</a>
-                    <a onClick={() => setShowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full inline-block'
+                    <a onClick={() => setShowMobileMenu(false)} href="#Testimonial" className='px-4 py-2 rounded-full inline-block'
                     >Testimonials</a>
                 </ul>
             </div>
