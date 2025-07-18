@@ -1,10 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 
+
 const About = () => {
     return (
         <div className='flex flex-col items-center text-center justify-center container mx-auto p-14
-        md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
+            md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
             <h1 className='text-2xl sm:text-4xl font-bold mb-2'>About
                 <span className='underline underline-offset-4 decoration-1 under font-light'> Our Brand</span>
             </h1>
@@ -35,7 +36,7 @@ const About = () => {
                     </div>
                     <p className='my-10 max-w-lg text-left'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae recusandae magnam
-                        enim autem. Illo nulla hic deleniti, minima sit reiciendis dolorum, 
+                        enim autem. Illo nulla hic deleniti, minima sit reiciendis dolorum,
                         assumenda accusantium dolores dolorem ipsam? Magnam, iusto!
                     </p>
                     <button className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Learn more</button>
